@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+.container {
+    max-width: 1230px;
+}
+
+/* .header  */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 105px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.logo {
+    margin: 0;
+}
+
+
+.nav_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 860px;
+    margin: 0;
+}
+
+.nav_link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #686868;
+    text-decoration: none;
+    
+}
+
+.nav_link:hover {
+    color: #2F70D9;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    
+} 
+
+.button {
+    border: 2px solid #2F70D9;
+    border-radius: 5px;
+    background:none;
+    padding: 8px 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+}
+
+
+/* .header  */
+/* main  */
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo_text {
+    margin-left: 0;
+}
+
+.p_promo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em; 
+    color: #686868;
+    max-width: 483px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button_promo {
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    padding: 18px 49px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* status  */
+
+.status {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.h2 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-bottom: 144px;
+    position: relative;
+}
+
+.h2::before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 130px;
+    left: 200px;
+    background: url(../img/zagalovok.svg) no-repeat;
+}
+
+.p_status {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;  
+    letter-spacing: 0.03em;  
+    color: #686868;
+    max-width: 390px;
+}
+
+.p_status_niz {
+    margin-top: 20px;
+    margin-bottom: 144px;
+}
+
+.img_status {
+    margin-bottom: 0;
+}
+
+/* uslygi  */
+
+.h2_uslygi {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-bottom: 144px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.h2_uslygi::before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 130px;
+    left: 290px;
+    background: url(../img/zagalovok.svg) no-repeat;
+}
+
+.blocks_us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1020px;
+}
+
+.card_us {
+    height: 237px;
+    min-width: 337px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.h6 {
+    max-width: 250px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.p_us {
+    max-width: 236px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141.18%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #686868;
+}
+
+/* nomer  */
+
+.nomer {
+    margin-bottom: 100px;
+}
+
+.h2_nomer {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-bottom: 144px;
+    position: relative;
+    margin-bottom: 80px;   
+}
+
+.h2_nomer::before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 130px;
+    left: 230px;
+    background: url(../img/zagalovok.svg) no-repeat;
+}
+
+.bloks_nomber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.blok_nom {
+    text-align: center;
+    padding: 40px 30px;
+    border: 3px solid #2F70D9;
+    border-radius: 20px;   
+}
+
+.p_mini {
+    margin-bottom: 13px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%; 
+    letter-spacing: 0.03em;  
+    color: #686868;
+    position: relative;
+    padding-left: 30px;
+}
+
+.p_mini::after {
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #686868;
+    left: 0;
+    top: 7px;
+}
+
+.duh {
+    margin-top: 30px;
+} 
+
+.nom_price {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.p_price {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #D95845;
+}
+
+/* comment  */
+
+.comment {
+    margin-bottom: 100px;
+}
+
+.blok_comm {
+    text-align: center;
+    padding: 25px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    max-width: 285px;
+}
+
+.p_comm {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 237px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;  
+    letter-spacing: 0.03em; 
+    color: #686868;
+}
+
+.p_comm_data {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141.18%;  
+    letter-spacing: 0.03em; 
+    color: #686868;
+}
+
+.bloks_comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contact  */
+
+.contact_map {
+    background: url(../img/Карта.svg) no-repeat;
+    padding: 35px 0 35px 75px;
+    margin-bottom: 100px;
+}
+
+.contact {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    max-width: 258px;
+    margin: 0;
+    padding: 32px 49px;
+
+}
+
+.h2_contact {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 0.03em;
+    color: #2F70D9;
+    margin-bottom: 144px;
+    position: relative;
+    margin-bottom: 25px;  
+}
+
+.h2_contact::before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 130px;
+    left: 125px;
+    background: url(../img/zagalovok.svg) no-repeat;
+}
+
+.p_adres {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;  
+    letter-spacing: 0.05em;
+    color: #686868;
+    margin-bottom: 10px;
+}
+
+.p_adres_contact {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;
+    letter-spacing: 0.03em;  
+    color: #686868;
+    margin-bottom: 25px;
+}
+
+.p_contact_tel {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.03em; 
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.link_contact {
+    margin-top: 25px;
+}
+
+.vab {
+    margin-right: 30px;
+}
+
+/* footer  */
+
+.footer {
+    background: #282828;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: flex-start;
+}
+
+.logo_f {
+    margin: 0;
+}
+
+.nav_foot {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+.p_nav_foot {
+    margin: 0 0 20px 0;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.03em;   
+    color: #2F70D9;
+    
+}
+
+.p_nav_footm {
+    margin: 0 0 15px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    margin-top: 0;
+}
+
+.but {
+    padding: 8px 30px;
+    margin: 0 0 15px 0;
+    background: #D95845;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.a_foot {
+    margin-top: 80px;
+}
+
+.p_adres_f {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.p_adres_contact_f {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 141.18%;  
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.p_contact_tel_f {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em; 
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.link_contact_f {
+    margin-top: 15px;
+}
+
+.fo {
+    height: 30px;
+}
+
+.vabf {
+    margin-right: 10px;
+}
+
+.p_prava {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    padding-bottom: 25px;
+    text-align: center;
+}
